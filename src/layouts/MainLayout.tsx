@@ -1,11 +1,13 @@
-import HomePage from "../pages/HomePage/HomePage.tsx";
 import {Outlet} from "react-router";
+import Menu from "../components/menu/Menu.tsx";
 
 
 const MainLayout = () => {
     return (
         <div>
-<HomePage/>
+
+<Menu/>
+
             <Outlet/>
         </div>
     );
